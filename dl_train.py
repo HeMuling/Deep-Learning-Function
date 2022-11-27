@@ -7,7 +7,6 @@ def init_weights(m):
         nn.init.xavier_uniform_(m.weight)
 
 def dl_train(net, trainer, train_iter, test_iter, num_epoch, device=None):
-
     '''
     code adapted from https://www.zhihu.com/question/406133826/answer/1334319004
     '''
