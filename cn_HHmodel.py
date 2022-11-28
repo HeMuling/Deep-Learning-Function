@@ -48,7 +48,7 @@ def V_mem(V_pre, INa_pre, IK_pre, IL_pre, time_step, I_e, C=1):
 
 def cn_HHmodel(time, time_step, current_time, I_e, V_init,
                      ENa=50, EK=-77, EL=-54, g_Na=120, g_K=36,
-                     g_L=0.03, Cm=1, dt=None):
+                     g_L=0.3, Cm=1, dt=None):
     '''
     time: total time to stimulate in mS
     time_step: in mS
